@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6yXmMTxox"
-#define BLYNK_TEMPLATE_NAME "butkemiyot"
-#define BLYNK_AUTH_TOKEN "L9K6VUWFwp5fdoI99ku39v84GmseqySD"
+#define BLYNK_TEMPLATE_ID "template id"
+#define BLYNK_TEMPLATE_NAME "template name"
+#define BLYNK_AUTH_TOKEN "auth token"
 #define BLYNK_PRINT Serial
 
 #include <Wire.h>
@@ -16,8 +16,8 @@
 
 const char* wifiSsid = "Wokwi-GUEST";
 const char* wifiPassword = "";
-const char* firebaseProjectApiKey = "AIzaSyB6o0PdeUJbNRzV86SLifh0Jl3OrtBPmA4";
-const char* firebaseDatabaseUrl ="https://bootcampiot-2f181-default-rtdb.asia-southeast1.firebasedatabase.app";
+const char* firebaseProjectApiKey = "firebase api key";
+const char* firebaseDatabaseUrl ="database url";
 
 const char* dhtDataPath = "/dht_data";
 const char* temperatureKey = "temperature";
